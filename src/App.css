@@ -1,4 +1,9 @@
 .App {
+  --cg-blue: #247ba0ff;
+  --minion-yellow: #f4e04dff;
+  --orange-soda: #f06449ff;
+  --raisin-black: #262322ff;
+  --lavender-web: #dadff7ff;
   text-align: center;
 }
 
