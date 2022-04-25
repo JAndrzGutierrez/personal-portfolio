@@ -2,12 +2,12 @@ import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import './Header.css'
+import "./Header.css";
 const Header = () => {
   return (
-    <Navbar className="Navbar">
+    <Navbar expand="lg" className="Navbar">
       <Container>
-        <Navbar.Brand href="#home">Montezuma Developers</Navbar.Brand>
+        <Navbar.Brand href="/">Dreveloper</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -32,4 +32,3 @@ const Header = () => {
 };
 
 export default Header;
-
