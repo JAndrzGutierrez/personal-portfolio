@@ -1,3 +1,5 @@
 .Navbar {
     background-color: var(--lavender-web);
+    font-family: "Highschool";
+    font-size: 20px;
 }
