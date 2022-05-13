@@ -15,3 +15,7 @@ code {
   font-family: "Highschool";
   src: url('./fonts/Highschool/Highschool.ttf');
 }
+@font-face {
+  font-family: "Urban Black";
+  src: url('./fonts/urban_black/Urban\ Black.ttf');
+}

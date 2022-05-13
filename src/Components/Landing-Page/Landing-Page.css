@@ -8,7 +8,6 @@
     flex-wrap: wrap;
 }
 .landing-page-text {
-    font-family: "Highschool";
     font-size: 10vmin;
     color: var(--orange-soda);
 }
@@ -18,5 +17,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: "Urban Black";
+}
+.my-projects{ 
+    font-family: "Urban Black";
+}
+.p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 

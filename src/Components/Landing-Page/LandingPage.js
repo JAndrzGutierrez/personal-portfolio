@@ -10,16 +10,13 @@ const LandingPage = () => {
     <Container>
       <Row>
         <Col className="profile-picture" lg={true}>
-          <Image fluid src={profile} width={450} />
+          <Image fluid={true} src={profile} width={350}/>
         </Col>
         <Col className="profile-intro">
-          <h1>Hi, my name is Juan Andres!</h1>
-          <h3>
-            I'm a Bilingual Full-Stack Software Engineer from Costa Rica, based
-            out of <strong>Richmond, VA.</strong> I'm pasioned about learning{" "}
-            <strong>new technologies</strong> and all the diffents ways that can
-            be apply to create cool applications.
-          </h3>
+          <h1>Juan Andres Gutierrez</h1>
+          <p>
+          “Evolving the digital future with superior software development and programming.”
+          </p>
         </Col>
       </Row>
       <Col className="my-projects">

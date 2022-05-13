@@ -1,8 +1,10 @@
+import "./App.css";
 import Header from "./Components/Header/Header";
 import LandingPage from "./Components/Landing-Page/LandingPage";
 import { Routes, Route, Link } from "react-router-dom";
+import AboutSection from "./Components/About/About";
 
-import "./App.css";
+
 
 
 function App() {
@@ -11,7 +13,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<LandingPage/>}></Route>
-        <Route></Route>
+        <Route path="/about" element={<AboutSection/>}></Route>
         <Route></Route>
       </Routes>
     </div>
